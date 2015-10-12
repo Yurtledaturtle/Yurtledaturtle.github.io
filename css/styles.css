@@ -1,0 +1,23 @@
+body{
+  background-color: #ED3E3E;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+li{
+  display: inline-block;
+}
+h3{
+  display: block;
+}
+h5{
+  display: block;
+}
+.pic{
+  width: 150px;
+  height: 150px;
+  display: block;
+}
+.nav{
+  display: block;
+  text-align: left;
+}
