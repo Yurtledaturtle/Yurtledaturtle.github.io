@@ -1,23 +1,77 @@
 body{
-  background-color: #ED3E3E;
+  background-color: white;
   background-repeat: no-repeat;
   overflow: hidden;
+  position: absolute;
+}
+.container{
+  
 }
 li{
-  display: inline-block;
+  display: block;
+  padding-bottom: 15%;
 }
 h3{
-  display: block;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin: 0px;
+  font-size: 32px;
+  display: inline-block;
 }
 h5{
+  font-size: 20px;
+  display: inline-block;
+  padding-right: 10%;
+}
+.info{
   display: block;
 }
 .pic{
-  width: 150px;
-  height: 150px;
+  width: 44%;
+  height: 44%;
+  display: inline-block;
+  border-radius: 40em;
+}
+#linknav{
+  position: relative;
+  margin-top: 5%;
+  display: inline-block;
+  text-align: left;
+  float: right;
+}
+#project{
+  background-color: black;
+  display: inline-block;
+  color: white;
+  margin-left: 50%;
+}
+a:link{
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  color: darkgrey;
+}
+a:visited{
+  text-decoration: none;
+  color: red;
+}
+a:visited:hover{
+  color: blue;
+}
+.tab-content{
+  border-radius: 12px;
+  background-color: lightgrey;
+  color: black;
   display: block;
 }
-.nav{
-  display: block;
-  text-align: left;
+.tab-content:hover{
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+#whoami{
+  position: relative;
+  left: -10%;
+  float: left;
 }
