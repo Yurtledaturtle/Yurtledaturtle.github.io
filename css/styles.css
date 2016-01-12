@@ -1,15 +1,15 @@
 body{
   background-color: white;
   background-repeat: no-repeat;
-  overflow: hidden;
+  overflow: scroll;
   position: absolute;
 }
 .container{
-  
+
 }
 li{
   display: block;
-  padding-bottom: 15%;
+  /*padding-bottom: 15%;*/
 }
 h3{
   padding-top: 2%;
@@ -27,10 +27,11 @@ h5{
   display: block;
 }
 .pic{
-  width: 44%;
-  height: 44%;
+  width: 32.8%;
+  height: 21.6%;
+  border-radius: 50%;
+  /*margin-bottom: 8px;*/
   display: inline-block;
-  border-radius: 40em;
 }
 #linknav{
   position: relative;
@@ -38,6 +39,7 @@ h5{
   display: inline-block;
   text-align: left;
   float: right;
+  vertical-align: top;
 }
 #project{
   background-color: black;
@@ -74,4 +76,5 @@ a:visited:hover{
   position: relative;
   left: -10%;
   float: left;
+  vertical-align: top;
 }
