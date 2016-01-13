@@ -16,10 +16,6 @@ body{
 .container{
 
 }
-li{
-  display: block;
-  /*padding-bottom: 15%;*/
-}
 h3{
   color: #302A1A;
   padding-top: 2%;
@@ -42,6 +38,7 @@ h5{
 }
 #linknav{
   position: relative;
+  right: -5%;
   margin-top: 5%;
   display: inline-block;
   text-align: left;
@@ -75,6 +72,9 @@ a:visited:hover{
   color: #F5ECD3;
   display: block;
 }
+.linkli{
+  display: inline-block;
+}
 .tab-nav{
 
 }
@@ -82,12 +82,12 @@ a:visited:hover{
   position: relative;
   margin-top: 5%;
   display: inline-block;
-  text-align: left;
+  text-align: center;
   vertical-align: top;
 }
 #picture{
   position: relative;
-  left: -10%;
+  left: -8%;
   float: left;
   vertical-align: top;
 }
