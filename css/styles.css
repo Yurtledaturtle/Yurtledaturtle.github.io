@@ -5,6 +5,11 @@ body{
   overflow: auto;
   position: absolute;
 }
+.aboutmepara{
+  padding-left: 5%;
+  text-align: left;
+  font-size: 12pt;
+}
 .headerwrapper{
   font-family: 'Bitter', serif;
   font-size: 24pt;
@@ -21,8 +26,14 @@ body{
 .tab-button{
   border-radius: 10px;
   background-color: #C45B16;
-  color: #302A1A;
+  color: #F5ECD3;
   font-family: 'Oxygen', sans-serif;
+}
+.tab-button:hover{
+  color: #16AD9D;
+}
+.tab-button::selection {
+  color: #16AD9D;
 }
 h3{
   color: #302A1A;
@@ -31,6 +42,9 @@ h3{
   margin: 0px;
   font-size: 40pt;
   display: block;
+}
+h4{
+
 }
 h5{
   font-size: 20px;
@@ -43,6 +57,20 @@ h5{
   /*height: 100%;*/
   border-radius: 50%;
   display: inline-block;
+}
+a{
+  text-decoration: none;
+}
+a:visited{
+  text-decoration: none;
+}
+span{
+  text-decoration: none;
+  color: #16AD9D;
+}
+span:visited{
+  color: #B9E3C7;
+  text-decoration: none;
 }
 .background{
   margin-left: 15%;
@@ -61,20 +89,6 @@ h5{
   float: right;
   vertical-align: top;
 }
-a:link{
-  text-decoration: none;
-  /*color: #16AD9D;*/
-}
-a:hover{
-  /*color: darkgrey;*/
-}
-a:visited{
-  text-decoration: none;
-  /*color: #B9E3C7;*/
-}
-a:visited:hover{
-  /*color: blue;*/
-}
 .tab-content{
   padding: 5px;
   border-radius: 10px;
@@ -88,44 +102,109 @@ a:visited:hover{
 .tab-nav{
 
 }
+.aboutmepara1{
+  padding-left: 5%;
+  font-size: 18pt;
+  text-align: center;
+}
 #aboutme{
+  padding-right: 3.5%;
+  padding-top: 2%;
+  margin: 5%;
+  background-color: #302A1A;
+  border-radius: 12px;
+  border-color: #302A1A;
+  color: #F5ECD3;
   text-align: center;
   display: inline-block;
 }
 #project1{
+  margin-top: 2%;
+  position: relative;
+  left: 1%;
+  background-color: #302A1A;
+  border-radius: 12px;
+  border-color: #302A1A;
+  color: #F5ECD3;
+  padding-bottom: 1%;
   padding-left: 10px;
   text-align: center;
   display: inline-block;
 }
 #project2{
+  margin-top: 2%;
+  position: relative;
+  right: -.5%;
+  margin-left: 2%;
+  background-color: #302A1A;
+  border-radius: 12px;
+  border-color: #302A1A;
+  color: #F5ECD3;
   padding-right: 10px;
   text-align: center;
   display: inline-block;
 }
 #project3{
-  padding-left: -10px;
+  margin-top: 2%;
+  margin-bottom: -2%;
+  position: relative;
+  left: 1%;
+  background-color: #302A1A;
+  border-radius: 12px;
+  border-color: #302A1A;
+  color: #F5ECD3;
+  padding-right: -10px;
   text-align: center;
   display: inline-block;
 }
 #project4{
-  padding-right: 10px;
+  margin-top: 2%;
+  margin-bottom: -2%;
+  position: relative;
+  right: 1%;
+  background-color: #302A1A;
+  border-radius: 12px;
+  border-color: #302A1A;
+  color: #F5ECD3;
+  padding-left: 10px;
   text-align: center;
   display: inline-block;
 }
 #skills{
-  margin-top: 10%;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 1%;
+  background-color: #302A1A;
+  border-radius: 12px;
+  border-color: #302A1A;
+  color: #F5ECD3;
+  padding: 5%;
+  float: left;
   text-align: center;
   display: inline-block;
 }
+#resume{
+  display: inline-block;
+  margin: 5%;
+  margin-right: 8.5%;
+  margin-top: 10%;
+  background-color: #302A1A;
+  border-radius: 12px;
+  border-color: #302A1A;
+  color: #F5ECD3;
+  padding: 5%;
+  float: right;
+}
 #whoami{
   position: relative;
-  margin-top: 5%;
+  margin-top: 2%;
   display: inline-block;
   text-align: center;
   vertical-align: top;
 }
 .projpic{
   margin-left: 6%;
+  padding-bottom: 2%;
   display: block;
   width: 90%;
   height: 90%;
