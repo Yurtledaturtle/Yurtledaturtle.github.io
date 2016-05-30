@@ -5,34 +5,12 @@ body{
   overflow: auto;
   position: absolute;
 }
-.aboutmepara{
-  padding-left: 5%;
-  text-align: left;
-  font-size: 12pt;
+
+a{
+  text-decoration: none;
 }
-.headerwrapper{
-  font-family: 'Bitter', serif;
-  font-size: 24pt;
-}
-.contentwrapper{
-  font-family: 'Oxygen', sans-serif;
-  font-size: 14pt;
-}
-.container{
-  height: auto;
-  width: auto;
-}
-.tab-button{
-  border-radius: 10px;
-  background-color: #C45B16;
-  color: #F5ECD3;
-  font-family: 'Oxygen', sans-serif;
-}
-.tab-button:hover{
-  color: #16AD9D;
-}
-.tab-button::selection {
-  color: #16AD9D;
+a:visited{
+  text-decoration: none;
 }
 h3{
   color: #302A1A;
@@ -50,64 +28,9 @@ h5{
   display: inline-block;
   padding-right: 10%;
 }
-.pic{
-  margin-top: 10px;
-  width: 80%;
-  /*height: 100%;*/
-  border-radius: 50%;
-  display: inline-block;
-}
-a{
-  text-decoration: none;
-}
-a:visited{
-  text-decoration: none;
-}
-span{
-  text-decoration: none;
-  color: #16AD9D;
-}
 span:visited{
   color: #B9E3C7;
   text-decoration: none;
-}
-.background{
-  margin-left: 15%;
-  margin-right: -15%;
-  background-color: #F5ECD3;
-}
-.email{
-  font-size: 20pt;
-}
-#linknav{
-  position: relative;
-  right: -8%;
-  margin-top: 5%;
-  display: inline-block;
-  text-align: left;
-  float: right;
-  vertical-align: top;
-}
-.tab-content{
-  padding-left: 10px;
-  padding-right: 10px;
-  overflow: inherit;
-  padding-bottom: 5%;
-  border-radius: 10px;
-  background-color: #C45B16;
-  color: #F5ECD3;
-  /*display: block;*/
-}
-.linkli{
-  display: inline-block;
-}
-.tab-nav{
-
-}
-.aboutmepara1{
-  padding-left: 5%;
-  font-size: 18pt;
-  text-align: center;
 }
 #aboutme{
   padding-right: 3.5%;
@@ -119,6 +42,38 @@ span:visited{
   color: #F5ECD3;
   text-align: center;
   display: inline-block;
+}
+#emaillink{
+  text-decoration: none;
+  color: #16AD9D;
+}
+#linknav{
+  position: relative;
+  right: -8%;
+  margin-top: 5%;
+  display: inline-block;
+  text-align: left;
+  float: right;
+  vertical-align: top;
+}
+#picture{
+  position: relative;
+  float: left;
+  vertical-align: top;
+}
+#pic1{
+  margin-left: 6%;
+  padding-bottom: 2%;
+  display: block;
+  width: 88%;
+  height: 50%;
+}
+#pic3{
+  margin-left: 6%;
+  padding-bottom: 2%;
+  display: block;
+  width: 88%;
+  height: 50%;
 }
 #project1{
   margin-top: 3%;
@@ -182,6 +137,18 @@ span:visited{
   text-align: center;
   display: inline-block;
 }
+#resume{
+  display: inline-block;
+  margin: 5%;
+  margin-right: 8.5%;
+  margin-top: 10%;
+  background-color: #302A1A;
+  border-radius: 12px;
+  border-color: #302A1A;
+  color: #F5ECD3;
+  padding: 5%;
+  float: right;
+}
 #skills{
   margin-top: 5%;
   margin-left: 5%;
@@ -195,24 +162,54 @@ span:visited{
   text-align: center;
   display: inline-block;
 }
-#resume{
-  display: inline-block;
-  margin: 5%;
-  margin-right: 8.5%;
-  margin-top: 10%;
-  background-color: #302A1A;
-  border-radius: 12px;
-  border-color: #302A1A;
-  color: #F5ECD3;
-  padding: 5%;
-  float: right;
-}
 #whoami{
   position: relative;
   margin-top: 2%;
   display: inline-block;
   text-align: center;
   vertical-align: top;
+}
+
+.container{
+  height: auto;
+  width: auto;
+}
+
+.aboutmepara{
+  padding-left: 5%;
+  text-align: left;
+  font-size: 12pt;
+}
+.aboutmeparafirst{
+  padding-left: 5%;
+  font-size: 18pt;
+  text-align: center;
+}
+.background{
+  margin-left: 15%;
+  margin-right: -15%;
+  background-color: #F5ECD3;
+}
+.contentwrapper{
+  font-family: 'Oxygen', sans-serif;
+  font-size: 14pt;
+}
+.email{
+  font-size: 20pt;
+}
+.headerwrapper{
+  font-family: 'Bitter', serif;
+  font-size: 24pt;
+}
+.linkli{
+  display: inline-block;
+}
+.pic{
+  margin-top: 10px;
+  width: 80%;
+  /*height: 100%;*/
+  border-radius: 50%;
+  display: inline-block;
 }
 .projpic{
   margin-left: 6%;
@@ -221,22 +218,28 @@ span:visited{
   width: 88%;
   height: 88%;
 }
-#pic1{
-  margin-left: 6%;
-  padding-bottom: 2%;
-  display: block;
-  width: 88%;
-  height: 50%;
+.tab-button{
+  border-radius: 10px;
+  background-color: #C45B16;
+  color: #F5ECD3;
+  font-family: 'Oxygen', sans-serif;
 }
-#pic3{
-  margin-left: 6%;
-  padding-bottom: 2%;
-  display: block;
-  width: 88%;
-  height: 50%;
+.tab-button:hover{
+  color: #16AD9D;
 }
-#picture{
-  position: relative;
-  float: left;
-  vertical-align: top;
+.tab-button::selection {
+  color: #16AD9D;
+}
+.tab-content{
+  padding-left: 10px;
+  padding-right: 10px;
+  overflow: inherit;
+  padding-bottom: 5%;
+  border-radius: 10px;
+  background-color: #C45B16;
+  color: #F5ECD3;
+  /*display: block;*/
+}
+.tab-nav{
+
 }
