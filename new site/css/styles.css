@@ -1,0 +1,71 @@
+a:-webkit-any-link {
+    text-decoration: none;
+}
+.marker{
+  margin-top: 5rem;
+}
+body{
+  font-family: 'Dosis', sans-serif;
+}
+.container{
+  position: relative;
+  top: 6rem;
+  /*overflow: hidden;*/
+}
+.header{
+  vertical-align: middle;
+}
+h1{
+  color: #302A1A;
+  font-size: 5.0rem;
+}
+h4{
+  color: #302A1A;
+  font-size: 3.0rem;
+}
+h5{
+  color: #C45B16;
+  font-size: 2.4rem;
+}
+.nav-links{
+  display: inline-block;
+  float: right;
+  position: relative;
+  top: 5.5rem;
+}
+.name-tag{
+  margin: 0 auto;
+  display: inline-block;
+  float: left;
+}
+ul {
+    list-style-type: none;
+    /*overflow: hidden;*/
+    /*background-color: #333;*/
+}
+
+li {
+    display: inline-block;
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #302A1A;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 24px;
+    padding-right: 24px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    color: #C45B16;
+}
+
+li a:hover {
+    border-width: thin;
+    border-bottom: solid .25rem;
+    border-color: #C45B16;
+}
