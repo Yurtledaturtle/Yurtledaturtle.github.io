@@ -11,11 +11,40 @@ body{
   font-family: 'Dosis', sans-serif;
   background-color: #FFF;
 }
-.container{
-  /*position: relative;
-  top: 6rem;*/
-  /*overflow: hidden;*/
+
+.iconcircle{
+  margin-top: 4rem;
+  height: 12.8rem;
+  border-radius: 50%;
+  background-color: #16AD9D;
+  text-align: center;
+  margin-left: 6rem;
+  margin-right: 6rem;
 }
+
+.contactinfo{
+  font-size: 1.8rem;
+  margin-top: 2rem;
+  margin-left: 6rem;
+  margin-right: 6rem;
+  text-align: center;
+}
+
+.contacticon{
+  color: #FFF;
+  line-height: 1rem;
+  margin-top: -0.5rem;
+  padding-top: 50%;
+}
+
+.contacticon:hover{
+  color: #B9E3C7;
+}
+
+.contactrow{
+  text-align: center;
+}
+
 .header{
   position: relative;
   top: 3rem;
@@ -24,6 +53,13 @@ body{
 .htags{
   display: inline-block;
 }
+
+.iconpad{
+  margin-top: 4rem;
+  background-color: #FFF;
+  text-align: center;
+}
+
 .icon{
   background: #FFF; /* For browsers that do not support gradients */
   background: -webkit-linear-gradient(#FFF, #B9E3C7); /* For Safari 5.1 to 6.0 */
@@ -145,7 +181,7 @@ span{
   text-align: center;
 }
 
-.pagelead{
+.pagehead{
   background: #16AD9D; /* For browsers that do not support gradients */
   background: -webkit-linear-gradient(#16AD9D, #B9E3C7); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(#16AD9D, #B9E3C7); /* For Opera 11.1 to 12.0 */
@@ -189,7 +225,26 @@ span{
   margin-right: 17%;
 }
 
+.resumeinfo2{
+  height: auto;
+  font-size: 2.4rem;
+  margin-top: 1rem;
+  text-align: center;
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+  margin-left: 17%;
+  margin-right: 17%;
+}
+
 .resumebuttons{
+  text-align: center;
+  padding-bottom: 1.5rem;
+  margin-left: 17%;
+  margin-right: 17%;
+}
+
+.resumebuttons2{
+  margin-top: 2.5rem;
   text-align: center;
   padding-bottom: 1.5rem;
   margin-left: 17%;
@@ -205,18 +260,52 @@ span{
 }*/
 
 #pdfbtn{
+  border: none;
+  font-size: 1.4rem;
+  font-family: 'Dosis', sans-serif;
+  background: #C45B16;
   margin-left: 1.5rem;
   padding-left: 3rem;
   padding-right: 3rem;
+  color: #FFF;
+}
+
+#pdfbtn:hover {
+  border: none;
+  color: #FFF;
+  background: #16AD9D; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#16AD9D, #B9E3C7); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#16AD9D, #B9E3C7); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#16AD9D, #B9E3C7); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#16AD9D, #B9E3C7); /* Standard syntax */
+}
+
+#githublink{
+  color: #C45B16;
 }
 
 #viewbtn{
+  border: none;
+  font-size: 1.4rem;
+  font-family: 'Dosis', sans-serif;
+  background: #C45B16;
   margin-right: 1.5rem;
   padding-left: 3rem;
   padding-right: 3rem;
+  color: #FFF;
 }
 
-.modal {
+#viewbtn:hover {
+  border: none;
+  color: #FFF;
+  background: #16AD9D; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#16AD9D, #B9E3C7); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#16AD9D, #B9E3C7); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#16AD9D, #B9E3C7); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#16AD9D, #B9E3C7); /* Standard syntax */
+}
+
+#modal1 {
   top: 0;
   left: 0;
   position: fixed;
@@ -226,6 +315,112 @@ span{
   background-color: rgba(0, 0, 0, .4);
 }
 
+#close-modal1 {
+  position: absolute;
+  top: 1rem;
+  left: 34rem;
+  z-index: 2;
+  font-size: 1.5em;
+  font-family: 'Dosis', sans-serif;
+  height: 1em;
+  width: 1em;
+  font-weight: bolder;
+  text-align: center;
+  color: black;
+  visibility: visible;
+}
+
+#close-modal1:hover {
+  cursor: pointer;
+}
+
+#modal2 {
+  top: 0;
+  left: 0;
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .4);
+}
+
+#close-modal2 {
+  position: absolute;
+  top: 1rem;
+  left: 34rem;
+  z-index: 2;
+  font-size: 1.5em;
+  font-family: 'Dosis', sans-serif;
+  height: 1em;
+  width: 1em;
+  font-weight: bolder;
+  text-align: center;
+  color: #FFF;
+  visibility: visible;
+}
+
+#close-modal2:hover {
+  cursor: pointer;
+}
+
+#modal3 {
+  top: 0;
+  left: 0;
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .4);
+}
+
+#close-modal3 {
+  position: absolute;
+  top: 1rem;
+  left: 34rem;
+  z-index: 2;
+  font-size: 1.5em;
+  font-family: 'Dosis', sans-serif;
+  height: 1em;
+  width: 1em;
+  font-weight: bolder;
+  text-align: center;
+  color: black;
+  visibility: visible;
+}
+
+#close-modal3:hover {
+  cursor: pointer;
+}
+
+#modal4 {
+  top: 0;
+  left: 0;
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .4);
+}
+
+#close-modal4 {
+  position: absolute;
+  top: 1rem;
+  left: 34rem;
+  z-index: 2;
+  font-size: 1.5em;
+  font-family: 'Dosis', sans-serif;
+  height: 1em;
+  width: 1em;
+  font-weight: bolder;
+  text-align: center;
+  color: black;
+  visibility: visible;
+}
+
+#close-modal4:hover {
+  cursor: pointer;
+}
+
 .modal-button {
   font-size: 3rem;
   background-color: #C45B16;
@@ -233,28 +428,18 @@ span{
   border-radius: 12px;
 }
 
-.close-modal {
-  position: absolute;
-  left: 96%;
-  z-index: 2;
-  font-size: 1.5em;
-  border-radius: 50%;
-  border: 3px solid white;
-  height: 1em;
-  width: 1em;
-  text-align: center;
-  background-color: limegreen;
-  line-height: 1;
-  color: white;
-}
-
-.close-modal:hover {
-  cursor: pointer;
+.modal-button:hover {
+  color: #FFF;
+  background: #16AD9D; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#16AD9D, #B9E3C7); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#16AD9D, #B9E3C7); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#16AD9D, #B9E3C7); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#16AD9D, #B9E3C7); /* Standard syntax */
 }
 
 .modal-content {
   position: relative;
-  margin: 0 30%;
+  margin: 0 35%;
   background-color: white;
   top: 10%;
   width: 40%;
@@ -262,16 +447,17 @@ span{
 
 .modal-body {
   position: absolute;
-  width: 100%;
+  width: auto;
   top: 10px;
-  background-color: white;
-  border: 10px solid white;
   z-index: 1;
+  font-size: 4.2rem;
+  color: white;
 }
 
-/*img {
-  width: 100%;
-}*/
+.projpic {
+  border: 1px solid black;
+  border-radius: 12px;
+}
 
 button {
   padding: 1em;
