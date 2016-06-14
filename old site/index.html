@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Matt Koski</title>
+    <link href='https://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+    <link rel="stylesheet" href="css/skeleton-tabs.css">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+
+  <body class="background">
+
+  <div class="container">
+
+    <div class ="row headerwrapper">
+
+      <div class ="four columns" id="picture">
+        <img class="pic" src="images/Pic0024.jpg"/>
+      </div>
+
+      <div class="four columns" id="whoami">
+        <h3>Matt Koski</h3>
+        <p class="email"> Web Developer <br> Email me <a id="emaillink" href="mailto:mkoski6@gmail.com">here.</a></p>
+      </div>
+
+      <div class="four columns" id="linknav">
+        <ul>
+          <li class="linkli"><a href="https://github.com/Yurtledaturtle" target="_blank"><img src="images/github.png" alt="Go to Github!" width="85px" height="85px"></a></li>
+          <li class="linkli"><a href="https://www.linkedin.com/in/mattkoski" target="_blank"><img src="images/linkedin.png" alt="Go to LinkedIn!" width="85px" height="85px"></a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="row contentwrapper">
+
+      <ul class="tab-nav">
+        <li>
+          <a class="tab-button button active" href="#one">About Me</a>
+        </li>
+        <li>
+          <a class="tab-button button" href="#two">Projects</a>
+        </li>
+      </ul>
+
+      <div class="tab-content container">
+        <div class="tab-pane active" id="one">
+          <div id="resume">View my <a href="https://docs.google.com/document/d/1gzIu--3fEKZhH9fTgazTKJ_RyvnqzbOejTW9rK1u6OE/view?usp=sharing" target="_blank"><span>Resume</span></a></div>
+            <p id="skills">SKILLS <br> JavaScript | Ruby | SQL | HTML5 | CSS3 <br>  Rails | Express.js | Backbone.js | AngularJS <br> PostgreSQL | MongoDB | MySQL | Skeleton CSS</p>
+            <div id="aboutme"> <p class="aboutmeparafirst">Hey visitor! I see you’ve happened across my personal site, so it would be fair for me to introduce myself.  My name is Matt and I am a web developer currently based in NJ.</p>
+              <p class="aboutmepara">This wasn’t always the case, however.  I knew for the longest time, I always had an interest in people and how they work together in the different places in society.  I previously had attended the University of Delaware for Business Administration, only to find that a business degree wasn’t in the stars.  But that’s ok, because it gave me an opportunity to pursue and receive an Associates in Sociology from my local community college.  But life can be funny sometimes, you know?  All this career searching had led me to two realizations.</p>
+              <p class="aboutmepara">-Sociology had become an integral part of my life, changing how I viewed many aspects of society and how I interfaced with them.
+                <br>-Being an avid video gamer and constant internet user through the years practically led me to a new development (ha) of my life that became my current journey through web development.</p>
+              <p class="aboutmepara">So here I am.  My name is Matt, I love to talk about society and the relationships of people in communities.  I also discovered that web development is an extremely rewarding experience and also allows me to express my love of sociology in a world of connected people using cutting edge technology.</p>
+          </div>
+        </div>
+        <div class="tab-pane" id="two">
+          <div class = "one row" id="project-table">
+              <div class="six columns" id="project1"><h4><a href="https://morning-meadow-2120.herokuapp.com/" target="_blank">Vibe</a></h4>A social application built with Ruby on Rails framework and utilizes a PostgreSQL database. Allows the user to map their current mood as a colored rating to Google Maps, alongside other users’ posts to visualize moods in locations.
+                <a href="https://morning-meadow-2120.herokuapp.com/" target="_blank"><img id="pic1" src="images/Vibe.png"/></a></div>
+              <div class="six columns" id="project2"><h4><a href="https://floating-ravine-2297.herokuapp.com/" target="_blank">Armchair Philosophy</a></h4>  A lightweight blogging application built using Backbone.js and the MEAN stack. Designed for users to log thoughts with intent to discuss daily philosophies with other users. The main profile page lists other usernames and all related posts to those usernames.
+                <a href="https://floating-ravine-2297.herokuapp.com/" target="_blank"><img class="projpic" src="images/Philosophy.png"/></a></div>
+          <div class = "one row">
+              <div class="six columns" id="project3"><h4><a href="https://github.com/Yurtledaturtle/RESTaurant" target="_blank">Proficient Provisions</a></h4> A food service application using Sinatra and a PostgreSQL database.  The user can record and track orders placed by the party. Once an order is placed, the proper table on the grid will turn red.
+                <a href="https://github.com/Yurtledaturtle/RESTaurant" target="_blank"><img id="pic3" src="images/Restaurant.png"/></a></div>
+              <div class="six columns" id="project4"><h4><a href="https://railstimeline.herokuapp.com/" target="_blank">Musical Timeline</a></h4> A musically themed web experience which allows users to create profiles and reflect on popular American music from previous decades as they listen.  Built in Rails using the Spotify Web Player with Backbone.js.
+                <a href="https://railstimeline.herokuapp.com/" target="_blank"><img class="projpic" src="images/Music.png"/></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <script type="text/javascript" src="javascripts/script.js"></script>
+    <script type="text/javascript" src="javascripts/jquery.js"></script>
+    <script type="text/javascript" src="javascripts/skeleton-tabs.js"></script>
+  </body>
+</html>
