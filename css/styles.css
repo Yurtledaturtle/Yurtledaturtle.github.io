@@ -316,9 +316,10 @@ span{
 }
 
 #close-modal1 {
-  position: absolute;
+  /*position: absolute;*/
   /*top: 1rem;*/
-  left: 31rem;
+  /*left: 31rem;*/
+  float: right;
   z-index: 2;
   font-size: 1.5em;
   font-family: 'Dosis', sans-serif;
@@ -345,9 +346,10 @@ span{
 }
 
 #close-modal2 {
-  position: absolute;
+  /*position: absolute;*/
   /*top: 1rem;*/
-  left: 31rem;
+  /*left: 31rem;*/
+  float: right;
   z-index: 2;
   font-size: 1.5em;
   font-family: 'Dosis', sans-serif;
@@ -374,9 +376,10 @@ span{
 }
 
 #close-modal3 {
-  position: absolute;
+  /*position: absolute;*/
   /*top: 1rem;*/
-  left: 31rem;
+  /*left: 31rem;*/
+  float: right;
   z-index: 2;
   font-size: 1.5em;
   font-family: 'Dosis', sans-serif;
@@ -403,9 +406,10 @@ span{
 }
 
 #close-modal4 {
-  position: absolute;
+  /*position: absolute;*/
   /*top: 1rem;*/
-  left: 31rem;
+  /*left: 31rem;*/
+  float: right;
   z-index: 2;
   font-size: 1.5em;
   font-family: 'Dosis', sans-serif;
