@@ -688,11 +688,15 @@ button:hover {
   cursor: pointer;
 }
 
+
+
 /* mobile */
 
-
 @media (max-width: 400px) {
-
+  li {
+    font-size: 2.5rem;
+    display: block;
+  }
   .name-tag{
     width: inherit;
   }
@@ -710,7 +714,6 @@ button:hover {
 }
 
 @media (max-width: 420px) {
-
   .name-tag{
     width: inherit;
   }
@@ -727,13 +730,11 @@ button:hover {
   }
 }
 
-
 /* Larger than phablet (also point when grid becomes active) */
 @media (max-width: 549px) {
   .container{
     width: 100%;
   }
-
   .name-tag{
     width: inherit;
   }
@@ -760,23 +761,6 @@ button:hover {
 
 /* Larger than tablet */
 @media (max-width: 750px) {
-  .container{
-    width: 100%;
-  }
-  .name-tag{
-    width: inherit;
-  }
-  .profpic{
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-  }
-  .htags{
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    text-align: center;
-  }
   .nav-links{
     width: inherit;
     position: relative;
@@ -794,6 +778,20 @@ button:hover {
 @media (max-width: 900px) {
   .container{
     width: 100%;
+  }
+  .name-tag{
+    width: inherit;
+  }
+  .profpic{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .htags{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
   }
   .nav-links{
     width: inherit;
