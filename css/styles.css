@@ -18,15 +18,12 @@ body{
   border-radius: 50%;
   background-color: #16AD9D;
   text-align: center;
-  margin-left: 6rem;
-  margin-right: 6rem;
+
 }
 
 .contactinfo{
   font-size: 1.8rem;
   margin-top: 2rem;
-  margin-left: 6rem;
-  margin-right: 6rem;
   text-align: center;
 }
 
@@ -39,6 +36,13 @@ body{
 
 .contacticon:hover{
   color: #B9E3C7;
+}
+
+.contactlink{
+  color: #C45B16;
+}
+.contactlink:hover{
+  color: #16AD9D;
 }
 
 .contactrow{
@@ -99,19 +103,26 @@ h5{
   margin-right: 1.5rem;
   display: inline-block;
 }
+
 ul {
+    display: inline-block;
     list-style-type: none;
     /*overflow: hidden;*/
     /*background-color: #333;*/
 }
 
-li {
-    display: inline-block;
-    float: left;
+ul > li {
+  letter-spacing: -0.1rem;
+  font-weight: 300;
 }
 
-li a {
-    display: block;
+li {
+    display: inline-block;
+    color: #302A1A;
+    font-size: 3.0rem;
+}
+
+li > a {
     color: #302A1A;
     text-align: center;
     padding-top: 0px;
@@ -236,7 +247,7 @@ span{
   margin-right: 17%;
 }
 
-.resumebuttons{
+.resumebuttons1{
   text-align: center;
   padding-bottom: 1.5rem;
   margin-left: 17%;
@@ -280,7 +291,7 @@ span{
   background: linear-gradient(#16AD9D, #B9E3C7); /* Standard syntax */
 }
 
-#githublink{
+#githubmain{
   color: #C45B16;
 }
 
@@ -676,3 +687,129 @@ button {
 button:hover {
   cursor: pointer;
 }
+
+/* mobile */
+
+
+@media (max-width: 400px) {
+
+  .name-tag{
+    width: inherit;
+  }
+  .profpic{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .htags{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+}
+
+@media (max-width: 420px) {
+
+  .name-tag{
+    width: inherit;
+  }
+  .profpic{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .htags{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+}
+
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (max-width: 549px) {
+  .container{
+    width: 100%;
+  }
+
+  .name-tag{
+    width: inherit;
+  }
+  .profpic{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .htags{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+  .nav-links{
+    width: inherit;
+    position: relative;
+    top: 2rem;
+  }
+}
+
+/* Resume button fix */
+@media (max-width: 680px) {}
+
+/* Larger than tablet */
+@media (max-width: 750px) {
+  .container{
+    width: 100%;
+  }
+  .name-tag{
+    width: inherit;
+  }
+  .profpic{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .htags{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+  .nav-links{
+    width: inherit;
+    position: relative;
+    top: 2rem;
+  }
+  ul{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+}
+
+/* Nav fix */
+@media (max-width: 900px) {
+  .container{
+    width: 100%;
+  }
+  .nav-links{
+    width: inherit;
+    position: relative;
+    top: 2rem;
+  }
+  ul{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+}
+
+/* Larger than desktop */
+@media (max-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
