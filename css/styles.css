@@ -1,119 +1,42 @@
+                          /* -------General HTML element styles------- */
+
 a:-webkit-any-link {
     text-decoration: none;
 }
-.aboutme{
-  margin-left: 13%;
-  margin-right: 13%;
-  margin-top: 3rem;
-  text-align: center;
-}
+
 body{
   font-family: 'Dosis', sans-serif;
   background-color: #FFF;
 }
 
-.iconcircle{
-  margin-top: 4rem;
-  height: 12.8rem;
-  border-radius: 50%;
-  background-color: #16AD9D;
-  text-align: center;
-
+button {
+  padding: 1em;
+  font-size: .75em;
+  color: white;
+  border: none;
 }
 
-.contactinfo{
-  font-size: 1.8rem;
-  margin-top: 2rem;
-  text-align: center;
+button:hover {
+  cursor: pointer;
 }
 
-.contacticon{
-  color: #FFF;
-  line-height: 1rem;
-  margin-top: -0.5rem;
-  padding-top: 50%;
+div {
+  box-sizing: border-box;
 }
 
-.contacticon:hover{
-  color: #B9E3C7;
-}
-
-.contactlink{
-  color: #C45B16;
-}
-.contactlink:hover{
-  color: #16AD9D;
-}
-
-.contactrow{
-  text-align: center;
-}
-
-.header{
-  position: relative;
-  top: 3rem;
-  vertical-align: middle;
-}
-.htags{
-  display: inline-block;
-}
-
-.iconpad{
-  margin-top: 4rem;
-  background-color: #FFF;
-  text-align: center;
-}
-
-.icon{
-  background: #FFF; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(#FFF, #B9E3C7); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#FFF, #B9E3C7); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#FFF, #B9E3C7); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#FFF, #B9E3C7); /* Standard syntax */
-  text-align: center;
-  font-size: 2.4rem;
-}
-.iconname{
-  margin-top: 0;
-}
 h1{
   color: #302A1A;
   font-size: 5.0rem;
 }
+
 h4{
   color: #302A1A;
   font-size: 3.0rem;
 }
+
 h5{
   color: #C45B16;
   font-size: 2.4rem;
-}
-.nav-links{
-  display: inline-block;
-  float: right;
-  position: relative;
-  top: 7.5rem;
-}
-.name-tag{
-  margin: 0 auto;
-  display: inline-block;
-  float: left;
-}
-.profpic{
-  margin-right: 1.5rem;
-  display: inline-block;
-}
-
-ul {
-    display: inline-block;
-    list-style-type: none;
-    /*overflow: hidden;*/
-    /*background-color: #333;*/
-}
-
-ul > li {
-  letter-spacing: -0.1rem;
-  font-weight: 300;
 }
 
 li {
@@ -143,11 +66,6 @@ li a:hover {
     border-bottom: solid .25rem #C45B16;
 }
 
-
-div {
-  box-sizing: border-box;
-}
-
 p{
   height: auto;
   font-size: 2.4rem;
@@ -163,8 +81,134 @@ span{
   font-size: 2.4rem;
 }
 
+ul {
+    display: inline-block;
+    list-style-type: none;
+    /*overflow: hidden;*/
+    /*background-color: #333;*/
+}
+
+ul > li {
+  letter-spacing: -0.1rem;
+  font-weight: 300;
+}
+
+
+
+
+
+                          /* -------General HTML class styles------- */
+
+.aboutme{
+  margin-left: 13%;
+  margin-right: 13%;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.iconcircle{
+  margin-top: 4rem;
+  height: 12.8rem;
+  border-radius: 50%;
+  background-color: #16AD9D;
+  text-align: center;
+}
+
+.contactinfo{
+  font-size: 1.8rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.contacticon{
+  color: #FFF;
+  line-height: 1rem;
+  margin-top: -0.5rem;
+  padding-top: 50%;
+}
+
+.contacticon:hover{
+  color: #B9E3C7;
+}
+
+.contactlink{
+  color: #C45B16;
+}
+
+.contactlink:hover{
+  color: #16AD9D;
+}
+
+.contactrow{
+  text-align: center;
+}
+
+.header{
+  position: relative;
+  top: 3rem;
+  vertical-align: middle;
+}
+
+.htags{
+  display: inline-block;
+}
+
+.iconpad{
+  margin-top: 4rem;
+  background-color: #FFF;
+  text-align: center;
+}
+
+.icon{
+  background: #FFF; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#FFF, #B9E3C7); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#FFF, #B9E3C7); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#FFF, #B9E3C7); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#FFF, #B9E3C7); /* Standard syntax */
+  text-align: center;
+  font-size: 2.4rem;
+}
+
+.iconname{
+  margin-top: 0;
+}
+
 .mainpage{
   margin-left: 15px;
+}
+
+.nav-links{
+  display: inline-block;
+  float: right;
+  position: relative;
+  top: 7.5rem;
+}
+
+.name-tag{
+  margin: 0 auto;
+  display: inline-block;
+  float: left;
+}
+
+.pagehead{
+  background: #16AD9D; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#16AD9D, #B9E3C7); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#16AD9D, #B9E3C7); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#16AD9D, #B9E3C7); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#16AD9D, #B9E3C7); /* Standard syntax */
+  font-size: 3.6rem;
+  margin-top: 6rem;
+  color: #FFF;
+  text-align: center;
+  border-radius: 12px;
+  padding: 3rem;
+  margin-left: 17%;
+  margin-right: 17%;
+}
+
+.profpic{
+  margin-right: 1.5rem;
+  display: inline-block;
 }
 
 .projecthead{
@@ -192,22 +236,6 @@ span{
   text-align: center;
 }
 
-.pagehead{
-  background: #16AD9D; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(#16AD9D, #B9E3C7); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#16AD9D, #B9E3C7); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#16AD9D, #B9E3C7); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#16AD9D, #B9E3C7); /* Standard syntax */
-  font-size: 3.6rem;
-  margin-top: 6rem;
-  color: #FFF;
-  text-align: center;
-  border-radius: 12px;
-  padding: 3rem;
-  margin-left: 17%;
-  margin-right: 17%;
-}
-
 .randquote{
   background: #16AD9D; /* For browsers that do not support gradients */
   background: -webkit-linear-gradient(#16AD9D, #B9E3C7); /* For Safari 5.1 to 6.0 */
@@ -225,7 +253,7 @@ span{
   margin-right: 17%;
 }
 
-.resumeinfo{
+.resumeinfo1{
   height: auto;
   font-size: 2.4rem;
   margin-top: 1rem;
@@ -264,11 +292,21 @@ span{
 
 .skillrow1{
   margin-bottom: 1rem;
-  /*height: 1000px;*/
 }
+
 /*.skillrow2{
   height: 1rem;
 }*/
+
+
+
+
+
+                          /* -------General HTML id styles------- */
+
+#githubmain{
+  color: #C45B16;
+}
 
 #pdfbtn{
   border: none;
@@ -291,10 +329,6 @@ span{
   background: linear-gradient(#16AD9D, #B9E3C7); /* Standard syntax */
 }
 
-#githubmain{
-  color: #C45B16;
-}
-
 #viewbtn{
   border: none;
   font-size: 1.4rem;
@@ -315,6 +349,12 @@ span{
   background: -moz-linear-gradient(#16AD9D, #B9E3C7); /* For Firefox 3.6 to 15 */
   background: linear-gradient(#16AD9D, #B9E3C7); /* Standard syntax */
 }
+
+
+
+
+
+                          /* -------Modal class and id element styles------- */
 
 #modal1 {
   top: 0;
@@ -677,20 +717,12 @@ span{
   background: linear-gradient(#16AD9D, #B9E3C7); /* Standard syntax */
 }
 
-button {
-  padding: 1em;
-  font-size: .75em;
-  color: white;
-  border: none;
-}
-
-button:hover {
-  cursor: pointer;
-}
 
 
 
-/* mobile */
+
+                          /* -------Mobile Responsivity------- */
+                       /* -------Currently in development------- */
 
 @media (max-width: 400px) {
   li {
@@ -730,7 +762,7 @@ button:hover {
   }
 }
 
-/* Larger than phablet (also point when grid becomes active) */
+/* Larger than phablet (also point when skeleton grid becomes active) */
 @media (max-width: 549px) {
   .container{
     width: 100%;
@@ -757,7 +789,9 @@ button:hover {
 }
 
 /* Resume button fix */
-@media (max-width: 680px) {}
+@media (max-width: 680px) {
+
+}
 
 /* Larger than tablet */
 @media (max-width: 750px) {
